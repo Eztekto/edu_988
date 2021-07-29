@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner (System.in);
         System.out.print("Введите температуру по Цельсию: ");
-        float TC = scan.nextInt ();
-        System.out.println((9 / 5) * TC + 32 + "°F");
+        int TC = scan.nextInt ();
+        System.out.println((9.0 / 5.0) * TC + 32.0 + "°F");
     }
 }
