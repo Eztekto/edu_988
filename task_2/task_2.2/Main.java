@@ -4,7 +4,7 @@ public class Main {
             for (int b = 1; b < 11; b++) {
                 System.out.print(a * b + " ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
