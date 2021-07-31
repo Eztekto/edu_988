@@ -5,8 +5,10 @@ public class Main {
         String result = "Попыток " + 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
-            if (sum > 10)
-            result = "Попыток " + (i - 1);
+            if (sum > 10){
+                result = "Попыток " + (i);
+                break;
+            }
         }
         System.out.println(result);
     }
