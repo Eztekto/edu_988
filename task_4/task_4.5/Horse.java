@@ -8,7 +8,7 @@ public class Horse extends Animal {
         this.color = color;
     }
    void run() {
-        System.out.println(speak + ", я поскакал");
+        System.out.println(speak + ", я поскакал!");
     }
 
 }
