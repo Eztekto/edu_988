@@ -15,7 +15,8 @@ public class Main {
         };
         Hotel hotel = new Hotel(rooms);
         Scanner scanner = new Scanner(System.in);
-        String command ;
+        String command = "Введите 'help', чтобы получить список команд" ;
+        System.out.println(command);
         while (true){
             System.out.println("Введите команду");
             command = scanner.nextLine();
@@ -46,6 +47,10 @@ public class Main {
                         "Wifi - комнаты с Wifi\n"+
                         "Eat - комнаты с завтраком\n"+
                         "exRoom - освободить комнату\n"+
+                        "showRoom - информация по комнате\n"+
+                        "WC - информация по комнатам с санузлом\n"+
+                        "Quantity - отсоротировать комнаты по спальным местам\n"+
+                        "exit - выйти из программы\n"+
                         "*----*";
                 System.out.println(command);
             }else if(command.equals("WC")){
